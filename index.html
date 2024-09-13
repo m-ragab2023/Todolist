@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/List.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title> Add To List </title>
+</head>
+<body>
+   <div class="container">
+    <header> Add To List </header>
+    <!-- Add input -->
+     <div class="inputfiled">
+         <input type="text"  placeholder=" Add a new todo "/>
+         <button> 
+             <i class="fas fa-plus"></i>
+         </button>
+     </div>
+     <ul class="todolist">
+        <!-- coming Data for local storage -->
+     </ul>
+
+     <div class="footer">
+        <span > you  have <span class="pendingNum"></span> pending tasks  </span>
+        <button> Clear All </button>
+     </div>
+   </div>
+   <script src="js/list.js"></script>
+</body>
+</html>
